@@ -2,12 +2,12 @@ Weather Data Visualizer
 created by Aiden Park
 
 
---- SUMMARY ---
+--- Summary ---
 
 This program allows you to visualize historical weather data including temperature, snowfall, and more in a variety of interactive formats. The program takes a spreadsheet as input and outputs various charts that can be interacted with using buttons and toggles.
 
 
---- HOW TO RUN ---
+--- How to Run ---
 
 Application files are included for every operating system. Simply open the folder corresponding to your OS and run the executable. Alternatively, you can run the program using Processing, the environment that was used to write the program:
 
@@ -18,7 +18,7 @@ Once Processing has been installed, you must install the ControlP5 GUI library. 
 When these steps are complete, simply select all of the .pde files in the "WeatherDataVisualizer" folder and open them with processing and they should compile/run without error.
 
 
---- HOW TO USE ---
+--- How to Use ---
 
 The program will import weather data provided in the CalgaryWeather.csv file. It will use this data to create an interactive graph that displays temperature by month over a range of years. At the top of the window are a variety of buttons that allow you to interact with this data, including functionality for the following:
 - Bar Chart Display or Scatterplot Display
@@ -28,3 +28,7 @@ The program will import weather data provided in the CalgaryWeather.csv file. It
 - Snowfall display, which shows the average snowfall per month in cm instead of temperature
 - An option to sort by year, allowing you to isolate one year of data and receive more information on this year, displayed at the bottom left of the window
 
+
+--- What I Learned ---
+
+This project was my first experience writing code for a major program with real world applications! As such I learned and improved upon a lot of skills including Java, GUI, Object-Oriented Programming, File IO, and more. Since it is one of my earliest projects however, please excuse my messy code :)
