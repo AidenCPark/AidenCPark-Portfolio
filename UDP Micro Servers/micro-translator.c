@@ -1,7 +1,5 @@
 // micro-translator.c
-// CPSC 441 Assignment 2
 // Written by Aiden Park
-// Submitted on October 23, 2021
 
 #include <sys/socket.h>
 #include <netinet/in.h>
@@ -10,13 +8,7 @@
 #include <string.h>
 #include <unistd.h>
 
-/*
- * Note:
- * Parts of this code have been adapted from the wordlen server
- * and client examples provided by the professor.
- */
-
-#define PORT_NUMBER 8920 // Server port, change this if needed
+#define PORT_NUMBER 8820 // Server port, change this if needed
 
 int main()
 {

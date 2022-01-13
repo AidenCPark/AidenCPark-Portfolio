@@ -1,7 +1,5 @@
 // micro-server.c
-// CPSC 441 Assignment 2
 // Written by Aiden Park
-// Submitted on October 23, 2021
 
 #include <sys/socket.h>
 #include <stdio.h>
@@ -11,17 +9,11 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 
-/*
- * Note:
- * Parts of this code have been adapted from the wordlen server
- * and client examples provided by the professor.
- */
-
-#define MICRO_IP "192.168.1.71" // IP address of micro servers
-#define PORT_NUMBER 8910 // Server port, change this if needed
-#define MICRO_PORT_1 8920 // Translator server port
-#define MICRO_PORT_2 8930 // Currency server port
-#define MICRO_PORT_3 8940 // Voting server port
+#define MICRO_IP "192.168.1.1" // IP address of micro servers
+#define PORT_NUMBER 8810 // Server port, change this if needed
+#define MICRO_PORT_1 8820 // Translator server port
+#define MICRO_PORT_2 8830 // Currency server port
+#define MICRO_PORT_3 8840 // Voting server port
 
 int othersockfd; // Used for child socket with fork()
 int status = 0; // current micro server

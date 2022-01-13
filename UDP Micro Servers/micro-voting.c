@@ -1,7 +1,5 @@
 // micro-voting.c
-// CPSC 441 Assignment 2
 // Written by Aiden Park
-// Submitted on October 23, 2021
 
 #include <sys/socket.h>
 #include <netinet/in.h>
@@ -10,13 +8,7 @@
 #include <string.h>
 #include <unistd.h>
 
-/*
- * Note:
- * Parts of this code have been adapted from the wordlen server
- * and client examples provided by the professor.
- */
-
-#define PORT_NUMBER 8940 // Server port, change this if needed
+#define PORT_NUMBER 8840 // Server port, change this if needed
 
 int candidate_1 = 33; // Candidate 1's votes
 int candidate_2 = 44; // Candidate 2's votes
@@ -51,7 +43,7 @@ int main() {
 
     // Connect socket to server
     if (bind(tsocket, server, sizeof(tserver)) == -1) {
-        printf("\n> ERROR: Failed to bind() currency server!\n");
+        printf("\n> ERROR: Failed to bind() voting server!\n");
         return -1;
     }
 

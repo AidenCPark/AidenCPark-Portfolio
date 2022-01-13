@@ -1,7 +1,5 @@
 // micro-client.c
-// CPSC 441 Assignment 2
 // Written by Aiden Park
-// Submitted on October 23, 2021
 
 #include <sys/socket.h>
 #include <stdio.h>
@@ -10,12 +8,6 @@
 #include <arpa/inet.h>
 #include <unistd.h>
 #include <string.h>
-
-/*
- * Note:
- * Parts of this code have been adapted from the wordlen server
- * and client examples provided by the professor.
- */
 
 int main(int argc, char** argv)
 {
